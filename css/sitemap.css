@@ -1,0 +1,52 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.sitemap-wrapper {
+  max-width: 1290px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #688AA1;
+}
+body .sitemap-title {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+body .sitemap-main {
+  max-width: 90%;
+  margin: 0 auto;
+}
+body .sitemap-main .sitemap-top, body .sitemap-main .sitemap-accessmap {
+  margin-bottom: 2rem;
+}
+body .sitemap-main .sitemap-accessmap > a {
+  margin-left: 50%;
+}
+body .sitemap-main a:visited {
+  color: #000;
+}
+body .sitemap-main span {
+  background-color: #fff;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 1rem 2rem;
+  width: 50%;
+}
+body .sitemap-main span:before {
+  content: url(../assets/sitemap/arrow_black.svg);
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: -5px;
+}
+body .sitemap-main span:hover {
+  background-color: #000;
+  box-sizing: border-box;
+  color: #fff;
+}
+body .sitemap-main span:hover:before {
+  content: url(../assets/sitemap/arrow_white.svg);
+}
+/*# sourceMappingURL=sitemap.css.map */
