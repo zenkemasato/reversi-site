@@ -19,7 +19,7 @@ a{
   max-width: 1290px;
   margin: 5rem auto 10rem;
 }
-@mixin backgraund-normal($url) {
+@mixin background-normal($url) {
   background-image: url($url);
   background-size: cover;
   background-repeat: no-repeat;
@@ -45,7 +45,7 @@ body{
     }
   }
   .company-profileabout-wrapper{
-    @include backgraund-normal("../assets/company/profileabout_backgraund.png");
+    @include background-normal("../assets/company/profileabout_background.png");
     background-position-y: 8rem;
     .company-profileabout{
       @include site-wide();
@@ -98,7 +98,7 @@ body{
     padding: 8rem 0 8rem 0;
     .company-news{
       @include site-wide();
-      @include backgraund-normal("../assets/company/news_airplane.png");
+      @include background-normal("../assets/company/news_airplane.png");
       background-position-x: left;
       &-article{
         margin-top: 10rem;
