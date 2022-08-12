@@ -45,7 +45,7 @@ body{
     }
   }
   .company-profileabout-wrapper{
-    @include background-normal("../assets/company/profileabout_background.png");
+    @include background-normal("../assets/company/profileabout_backgraund.png");
     background-position-y: 8rem;
     .company-profileabout{
       @include site-wide();
