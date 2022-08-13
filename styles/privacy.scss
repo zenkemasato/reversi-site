@@ -1,0 +1,35 @@
+//色
+$main-color: #688AA1;
+$accent-color: #FFF633;
+$text-color: #000;
+$white-color: #fff;
+
+//共通
+img {
+	max-width: 100%;
+	height: auto;
+}
+a{
+  text-decoration: none;
+  &:visited{
+    color: $text-color;
+  }
+}
+@mixin site-wide{
+  max-width: 1290px;
+  margin: 5rem auto 10rem;
+}
+
+body{
+  background-color: $main-color;
+  .privacy{
+		&-wrapper {
+			@include site-wide();
+		}
+		&-text{
+			background-color: $white-color;
+			padding: 3rem 5rem;
+			line-height: 2rem
+		}
+  }
+}
