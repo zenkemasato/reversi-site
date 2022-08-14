@@ -91,4 +91,25 @@ body {
 			}
 		}
 	}
+	&-number {
+		background-color: $white-color;
+		margin: 5rem auto;
+		width: 15%;
+
+		& > ul {
+			display: flex;
+			width: 100%;
+			
+			& > li {
+				border: solid 0.5px $sub-color;
+				text-align: center;
+				padding: 1rem 0;
+				width: 100%;
+
+				&:hover {
+					background-color: $sub-color;
+				}
+			}
+		}
+	}
 }
