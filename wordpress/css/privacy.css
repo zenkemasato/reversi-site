@@ -1,0 +1,25 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: #000;
+}
+
+body {
+  background-color: #688AA1;
+}
+body .privacy-wrapper {
+  max-width: 1290px;
+  margin: 5rem auto 10rem;
+}
+body .privacy-text {
+  background-color: #fff;
+  padding: 3rem 5rem;
+  line-height: 2rem;
+}
+/*# sourceMappingURL=pravacy.css.map */
