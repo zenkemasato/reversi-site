@@ -1,0 +1,141 @@
+//色
+$main-color: #688AA1;
+$accent-color: #FFF633;
+$text-color: #000;
+$white-color: #fff;
+
+//共通
+img {
+	max-width: 100%;
+	height: auto;
+}
+a{
+  text-decoration: none;
+  &:visited{
+    color: $text-color;
+  }
+}
+@mixin site-wide{
+  max-width: 1290px;
+  margin: 5rem auto 10rem;
+}
+@mixin background-normal($url) {
+  background-image: url($url);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+body{
+  background-color: $main-color;
+  .company{
+    @include site-wide();
+    &-main{
+      text-align: center;
+      margin-top: 5rem;
+      &-philosophy,&-policy{
+        color: $accent-color;
+        font-size: 2rem;
+      }
+      &-philosophy-text,&-policy-text{
+        color: $white-color;
+        font-size: 2.7rem;
+        margin-bottom: 5rem;
+      }
+    }
+  }
+  .company-profileabout-wrapper{
+    @include background-normal("../assets/company/profileabout_backgraund.png");
+    background-position-y: 8rem;
+    .company-profileabout{
+      @include site-wide();
+      &-table{
+        margin: 8rem auto 0;
+        tbody{
+          text-align: left;
+          tr > *{
+            vertical-align: top;
+            padding: 0 2rem 5rem;
+            font-weight: normal;
+            font-size: 1.4rem;
+          }
+        }
+      }
+    }
+  }
+  .company-otherproject{
+    @include site-wide();
+    &-ranbarse,&-deepdesign{
+      display: flex;
+      align-items: center;
+      *{
+        width: 100%;
+        text-align: center;
+      }
+      &-img{
+        opacity: .3;
+        transition: 0.6s;
+        &:hover{
+          opacity: 1;       
+        }
+      }
+      &-text{
+        &-tl{
+          color: $accent-color;
+          font-size: 1.4rem;
+          line-height: 5;
+        }
+        &-txt{
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+
+  .company-news-wrapper{
+    background-color: $white-color;
+    height: 100vh;
+    padding: 8rem 0 8rem 0;
+    .company-news{
+      @include site-wide();
+      @include background-normal("../assets/company/news_airplane.png");
+      background-position-x: left;
+      &-article{
+        margin-top: 10rem;
+        width: 30%;
+        margin-left: auto;
+        margin-right: 0;
+        ul{
+          padding-left: 0;
+        }
+        
+        &-btn{
+          transition: 1s;
+          
+          span{
+            font-size: 1.6rem;
+            &::after{
+              content: url(../assets/company/news_btn.png);
+              margin-left: 1.2rem;
+              vertical-align: -.3rem;
+            }
+          }
+          &:hover{
+            transform: translateX(5rem); 
+          }
+        }
+      }
+      &-list{
+        list-style: none;
+        margin-bottom: .8rem;
+        time{
+          opacity: .5;
+        }
+        &-text{
+          font-size: 1.2rem;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
