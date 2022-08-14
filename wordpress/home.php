@@ -147,6 +147,7 @@
 							<li class="top-news-list">
 								<a href="<?php echo get_permalink(); ?>">
 									<time><?php the_time('Y.n.j'); ?></time>
+									
 									<div class="top-news-list-text">
 										<span><?php the_title(); ?></span>
 									</div>
@@ -157,7 +158,7 @@
 							endif;
 						?>
 					</ul>
-					<a href="<?php echo get_permalink(); ?>">
+					<a href="<?php bloginfo('url');?>/news">
 						<div class="top-news-article-btn">
 							<span>List</span>
 						</div>
