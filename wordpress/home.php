@@ -146,7 +146,7 @@
 						?>
 							<li class="top-news-list">
 								<a href="<?php echo get_permalink(); ?>">
-									<time><?php the_time('Y.n.j'); ?></time>
+									<date><?php the_time('Y.n.j'); ?></date>
 									
 									<div class="top-news-list-text">
 										<span><?php the_title(); ?></span>

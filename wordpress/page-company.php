@@ -115,7 +115,7 @@
                         $recent_title = get_the_title($recent_id);
                         echo $recent_url;
                       } ?>">
-                    <time><?php echo $recent_time; ?></time>
+                    <date><?php echo $recent_time; ?></date>
                     <div class="company-news-list-text">
                       <span><?php echo $recent_title; ?></span>
                     </div>
