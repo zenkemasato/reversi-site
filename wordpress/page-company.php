@@ -102,52 +102,34 @@
         </h2>
         <div class="company-news-article">
           <ul>
-            <li class="company-news-list">
-              <a href="">
-                <time>2022.07.15</time>
-                <div class="company-news-list-text">
-                  <span>ブログを更新しました。</span>
-                </div>
-              </a>
-            </li>
-            <li class="company-news-list">
-              <a href="">
-                <time>2022.07.11</time>
-                <div class="company-news-list-text">
-                  <span>実績を更新しました。</span>
-                </div>
-              </a>
-            </li>
-            <li class="company-news-list">
-              <a href="">
-                <time>2022.06.15</time>
-                <div class="company-news-list-text">
-                  <span>ブログを更新しました。</span>
-                </div>
-              </a>
-            </li>
-            <li class="company-news-list">
-              <a href="">
-                <time>2022.06.13</time>
-                <div class="company-news-list-text">
-                  <span>ブログを更新しました。</span>
-                </div>
-              </a>
-            </li>
-            <li class="company-news-list">
-              <a href="">
-                <time>2022.06.11</time>
-                <div class="company-news-list-text">
-                  <span>ブログを更新しました。</span>
-                </div>
-              </a>
-            </li>
+            <?php 
+                  $postslist = get_posts('numberposts=5');
+                  foreach ($postslist as $index => $recent) : ;
+              ?>
+                <li class="company-news-list">
+                  <a href="<?php
+                      if (count($postslist) > 0) {
+                        $recent_id = $postslist[$index]->ID;
+                        $recent_url = get_permalink($recent_id);
+                        $recent_time = get_the_time('Y.n.j',$recent_id);
+                        $recent_title = get_the_title($recent_id);
+                        echo $recent_url;
+                      } ?>">
+                    <time><?php echo $recent_time; ?></time>
+                    <div class="company-news-list-text">
+                      <span><?php echo $recent_title; ?></span>
+                    </div>
+                  </a>
+                </li>
+            <?php 
+                endforeach;
+              ?>        
           </ul>
-          <a href="">
-            <div class="company-news-article-btn">
-              <span>List</span>
-            </div>
-          </a>
+          <a href="<?php bloginfo('url');?>/news">
+						<div class="company-news-article-btn">
+							<span>List</span>
+						</div>
+					</a>
         </div>
       </div>  
     </section>
