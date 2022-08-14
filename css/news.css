@@ -75,4 +75,22 @@ body {
   position: absolute;
   left: 95%;
 }
+.news-number {
+  background-color: #fff;
+  margin: 5rem auto;
+  width: 15%;
+}
+.news-number > ul {
+  display: flex;
+  width: 100%;
+}
+.news-number > ul > li {
+  border: solid 0.5px #A6B2B9;
+  text-align: center;
+  padding: 1rem 0;
+  width: 100%;
+}
+.news-number > ul > li:hover {
+  background-color: #A6B2B9;
+}
 /*# sourceMappingURL=news.css.map */
