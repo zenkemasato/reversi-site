@@ -11,6 +11,7 @@
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/sitemap.css">
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/contact.css">
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/privacy.css">
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/newsdetail.css">
 		<?php wp_head(); ?>
 	</head>
 	<?php wp_head(  ); ?>

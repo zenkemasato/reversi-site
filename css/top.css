@@ -174,7 +174,7 @@ a:visited {
   list-style: none;
   margin-bottom: 0.8rem;
 }
-.top-news-wrapper .top-news-list time {
+.top-news-wrapper .top-news-list date {
   opacity: 0.5;
 }
 .top-news-wrapper .top-news-list-text {

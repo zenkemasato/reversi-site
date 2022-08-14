@@ -75,22 +75,25 @@ body {
   position: absolute;
   left: 95%;
 }
-.news-number {
+
+.nav-links {
   background-color: #fff;
+  display: flex;
   margin: 5rem auto;
   width: 15%;
 }
-.news-number > ul {
-  display: flex;
-  width: 100%;
-}
-.news-number > ul > li {
+.nav-links .page-numbers {
+  display: inline-block;
   border: solid 0.5px #A6B2B9;
   text-align: center;
   padding: 1rem 0;
   width: 100%;
 }
-.news-number > ul > li:hover {
+.nav-links .page-numbers:hover {
   background-color: #A6B2B9;
+}
+
+.prev, .next {
+  display: none !important;
 }
 /*# sourceMappingURL=news.css.map */

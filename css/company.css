@@ -119,7 +119,7 @@ body .company-news-wrapper .company-news-list {
   list-style: none;
   margin-bottom: 0.8rem;
 }
-body .company-news-wrapper .company-news-list time {
+body .company-news-wrapper .company-news-list date {
   opacity: 0.5;
 }
 body .company-news-wrapper .company-news-list-text {
