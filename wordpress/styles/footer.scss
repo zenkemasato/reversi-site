@@ -1,0 +1,107 @@
+//色
+$main-color: #688AA1;
+$accent-color: #FFF633;
+$text-color: #000;
+
+//リセットCSS
+*::before, *::after {
+	box-sizing: border-box;
+}
+
+html, body, p {
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+ul, li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+footer {
+	& > .footer {
+		display: flex;
+		align-items: flex-end;
+		width: 100%;
+
+		& > .footer-company {
+			background-color: $accent-color;
+			border-radius: 0 100px 0 0;
+			width: 35%;
+			height: 600px;
+			position: relative;
+
+			& > .footer-logo {
+				position: absolute;
+				top: 30%;
+				left: 15%;
+			}
+
+			& > .footer-company-about {
+				position: absolute;
+				top: 70%;
+				left: 10%;
+
+				& > ul {
+					& > li {
+						color: $text-color;
+					}
+				}
+			}
+		}
+
+		& > .footer-main {
+			background-color: $main-color;
+			width: 100%;
+			height: 500px;
+
+			& > .footer-list {
+				display: flex;
+				margin-top: 10%;
+
+				
+				& > .footer-left, & > .footer-center, & > .footer-right  {
+					margin-left: 10%;
+					
+					& > ul {
+						& > li {
+							& > a {
+								color: $accent-color;
+							}
+						}
+						& > .footer-main-ttl {
+							font-size: 24px;
+							font-weight: bold;
+							letter-spacing: 0.1rem;
+							padding-bottom: 20px;
+						}
+						& > .footer-main-list {
+							font-size: 18px;
+							padding-bottom: 5%;
+						}
+					}
+				}
+				& > .footer-woman {
+					margin: 6% 3% 0;
+				}
+			}
+
+			& > .footer-row {
+				text-align: center;
+				& > p {
+					color: $accent-color;
+				}
+			}
+		}
+	}
+}

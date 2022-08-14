@@ -1,0 +1,146 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: #000;
+}
+
+.contact-section {
+  display: flex;
+}
+
+body {
+  background-color: #688AA1;
+}
+body .contact-title {
+  max-width: 1290px;
+  margin: 5rem auto 10rem;
+}
+body .contact-section {
+  background-color: #fff;
+  display: flex;
+  justify-content: right;
+}
+body .contact-section-contact {
+  width: 50%;
+}
+body .contact-section-wrapper {
+  width: 40%;
+  padding-left: 5rem;
+  background-color: #688AA1;
+  margin-top: -20rem;
+}
+body .contact-section-wrapper-right {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+body .contact-section-content-main {
+  width: 60vw;
+}
+body .contact-section-content-main .wpcf7 {
+  width: 70%;
+  margin: 0 auto;
+}
+body .contact-section-content-main .wpcf7 label {
+  margin-top: 2rem;
+  display: inline-block;
+  width: 100%;
+}
+body .contact-section-content-main .wpcf7-text {
+  border: none;
+  background-color: #B2C4CF;
+  border-radius: 0 75px 75px 0;
+  width: 70%;
+  height: 2rem;
+}
+body .contact-section-content-main .wpcf7-textarea {
+  border: none;
+  background-color: #B2C4CF;
+  border-radius: 0 25px 25px 0;
+  width: 70%;
+  resize: none;
+}
+body .contact-section-content-main .wpcf7-submit:disabled {
+  border: none;
+  background-color: #085BBD;
+  border-radius: 0 75px 75px 0;
+  width: 70%;
+  color: #fff;
+  height: 2rem;
+  opacity: 0.5;
+}
+body .contact-section-content-main .wpcf7-submit[type=submit i] {
+  border: none;
+  background-color: #085BBD;
+  border-radius: 0 75px 75px 0;
+  width: 70%;
+  color: #fff;
+  height: 2rem;
+}
+body .contact-section-content .contact-faq {
+  width: 60vw;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+body .contact-section-content .contact-faq-wrraper {
+  width: 70%;
+  margin: 0 auto;
+}
+body .contact-section-content .contact-faq-wrraper-title span {
+  font-size: 3rem;
+}
+body .contact-section-content .contact-faq-wrraper-text {
+  margin-top: 2rem;
+}
+body .contact-section-content .contact-faq-wrraper-text span:first-child {
+  display: inline-block;
+  font-size: 1rem;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 2.2;
+  width: 2rem;
+  height: 2rem;
+  background-color: #688AA1;
+  border-radius: 75px;
+}
+body .contact-section-content .contact-faq-wrraper-text span::nth-child(2) {
+  font-size: 1.2rem;
+}
+body .contact-section-content .contact-faq-wrraper-text-answer-yellow {
+  margin-top: 1rem;
+}
+body .contact-section-content .contact-faq-wrraper-text-answer-yellow span:first-child {
+  display: inline-block;
+  font-size: 1rem;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 2.2;
+  width: 2rem;
+  height: 2rem;
+  background-color: #688AA1;
+  border-radius: 75px;
+  background-color: #FFF633;
+}
+body .contact-section-content .contact-faq-wrraper-text-answer-blue {
+  margin-top: 1rem;
+}
+body .contact-section-content .contact-faq-wrraper-text-answer-blue span:first-child {
+  display: inline-block;
+  font-size: 1rem;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 2.2;
+  width: 2rem;
+  height: 2rem;
+  background-color: #688AA1;
+  border-radius: 75px;
+  color: #fff;
+  background-color: #085BBD;
+}
+/*# sourceMappingURL=contact.css.map */

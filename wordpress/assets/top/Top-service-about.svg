@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="813" height="239" viewBox="0 0 813 239">
+  <g id="グループ_333" data-name="グループ 333" transform="translate(-238 -1029)">
+    <g id="グループ_160" data-name="グループ 160" transform="translate(-19 -11)">
+      <ellipse id="楕円形_18" data-name="楕円形 18" cx="44" cy="1" rx="44" ry="1" transform="translate(955 1130)" fill="#fff"/>
+      <text id="Marketing" transform="translate(955 1125)" fill="#fff633" font-size="20" font-family="Helvetica"><tspan x="0" y="0">Marketing</tspan></text>
+    </g>
+    <g id="グループ_332" data-name="グループ 332">
+      <ellipse id="楕円形_43" data-name="楕円形 43" cx="71" cy="2" rx="71" ry="2" transform="translate(909 1061)" fill="#fff"/>
+      <text id="Consulting" transform="translate(909 1052)" fill="#fff633" font-size="30" font-family="Helvetica"><tspan x="0" y="0">Consulting</tspan></text>
+    </g>
+    <g id="グループ_61" data-name="グループ 61" transform="translate(621 1242.802)">
+      <g id="グループ_147" data-name="グループ 147">
+        <ellipse id="楕円形_22" data-name="楕円形 22" cx="67" cy="1" rx="67" ry="1" transform="translate(5 23.198)" fill="#fff"/>
+        <text id="UI_UX_Layout" data-name="UI・UX Layout" transform="translate(72 18.198)" fill="#fff633" font-size="20" font-family="Helvetica"><tspan x="-66.694" y="0">UI</tspan><tspan y="0" font-family="HiraginoSans-W3, Hiragino Sans">・</tspan><tspan y="0">UX Layout</tspan></text>
+      </g>
+    </g>
+    <g id="グループ_58" data-name="グループ 58" transform="translate(585 1192.802)">
+      <g id="グループ_148" data-name="グループ 148">
+        <ellipse id="楕円形_23" data-name="楕円形 23" cx="96" cy="1" rx="96" ry="1" transform="translate(12 23.198)" fill="#fff"/>
+        <text id="Planning_Production" data-name="Planning・Production" transform="translate(108 18.198)" fill="#fff633" font-size="20" font-family="Helvetica"><tspan x="-96.729" y="0">Planning</tspan><tspan y="0" font-family="HiraginoSans-W3, Hiragino Sans">・</tspan><tspan y="0">Production</tspan></text>
+      </g>
+    </g>
+    <g id="グループ_143" data-name="グループ 143" transform="translate(635 1142.802)">
+      <ellipse id="楕円形_24" data-name="楕円形 24" cx="46" cy="1" rx="46" ry="1" transform="translate(12 23.198)" fill="#fff"/>
+      <g id="グループ_55" data-name="グループ 55">
+        <text id="Illustration" transform="translate(58 18.198)" fill="#fff633" font-size="20" font-family="Helvetica"><tspan x="-45.576" y="0">Illustration</tspan></text>
+      </g>
+    </g>
+    <g id="グループ_57" data-name="グループ 57" transform="translate(652 1095.802)">
+      <g id="グループ_142" data-name="グループ 142">
+        <ellipse id="楕円形_26" data-name="楕円形 26" cx="35" cy="1" rx="35" ry="1" transform="translate(6 23.198)" fill="#fff"/>
+        <text id="Graphic" transform="translate(41 18.198)" fill="#fff633" font-size="20" font-family="Helvetica"><tspan x="-35.015" y="0">Graphic</tspan></text>
+      </g>
+    </g>
+    <g id="グループ_331" data-name="グループ 331">
+      <ellipse id="楕円形_42" data-name="楕円形 42" cx="123" cy="2" rx="123" ry="2" transform="translate(570 1061)" fill="#fff"/>
+      <text id="Design_Production" data-name="Design Production" transform="translate(693 1052)" fill="#fff633" font-size="30" font-family="Helvetica"><tspan x="-122.571" y="0">Design Production</tspan></text>
+    </g>
+    <g id="グループ_330" data-name="グループ 330">
+      <ellipse id="楕円形_41" data-name="楕円形 41" cx="123" cy="2" rx="123" ry="2" transform="translate(239 1059)" fill="#fff"/>
+      <text id="Web_Development" data-name="Web Development" transform="translate(362 1052)" fill="#fff633" font-size="30" font-family="Helvetica"><tspan x="-123.127" y="0">Web Development</tspan></text>
+    </g>
+    <g id="グループ_151" data-name="グループ 151" transform="translate(328 1145.5)">
+      <ellipse id="楕円形_21" data-name="楕円形 21" cx="34" cy="1" rx="34" ry="1" transform="translate(0 20.5)" fill="#fff"/>
+      <text id="Product" transform="translate(34 15.5)" fill="#fff633" font-size="20" font-family="Helvetica"><tspan x="-34.463" y="0">Product</tspan></text>
+    </g>
+    <g id="グループ_150" data-name="グループ 150" transform="translate(331 1099)">
+      <g id="グループ_59" data-name="グループ 59" transform="translate(0 20)">
+        <ellipse id="楕円形_25" data-name="楕円形 25" cx="31" cy="1" rx="31" ry="1" transform="translate(0 0)" fill="#fff"/>
+      </g>
+      <text id="Design" transform="translate(31 15)" fill="#fff633" font-size="20" font-family="Helvetica"><tspan x="-31.128" y="0">Design</tspan></text>
+    </g>
+    <g id="グループ_152" data-name="グループ 152" transform="translate(318 1193)">
+      <ellipse id="楕円形_27" data-name="楕円形 27" cx="44" cy="1" rx="44" ry="1" transform="translate(0 20)" fill="#fff"/>
+      <text id="Oparation" transform="translate(44 15)" fill="#fff633" font-size="20" font-family="Helvetica"><tspan x="-43.916" y="0">Oparation</tspan></text>
+    </g>
+  </g>
+</svg>
