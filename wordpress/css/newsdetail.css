@@ -31,13 +31,14 @@ a:visited {
 }
 .newsdetail-wrrap {
   max-width: 1290px;
-  margin: 0 auto;
+  margin: 100px auto 200px;
 }
 .newsdetail-wrrap-head {
   color: #FFF633;
 }
 .newsdetail-wrrap-head date {
-  opacity: 0.5;
+  color: #A6B2B9;
+  line-height: 2rem;
 }
 .newsdetail-wrrap-head h3 {
   font-size: 3rem;

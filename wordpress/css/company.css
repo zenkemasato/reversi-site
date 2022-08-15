@@ -24,6 +24,7 @@ body .company-main {
 body .company-main-philosophy, body .company-main-policy {
   color: #FFF633;
   font-size: 2rem;
+  margin-bottom: 1rem;
 }
 body .company-main-philosophy-text, body .company-main-policy-text {
   color: #fff;
@@ -51,6 +52,7 @@ body .company-profileabout-wrapper .company-profileabout-table tbody tr > * {
   padding: 0 2rem 5rem;
   font-weight: normal;
   font-size: 1.4rem;
+  line-height: 2rem;
 }
 body .company-otherproject {
   max-width: 1290px;
@@ -91,6 +93,7 @@ body .company-news-wrapper .company-news {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: left;
+  height: 100%;
 }
 body .company-news-wrapper .company-news-article {
   margin-top: 10rem;
@@ -126,4 +129,3 @@ body .company-news-wrapper .company-news-list-text {
   font-size: 1.2rem;
   font-weight: bold;
 }
-/*# sourceMappingURL=company.css.map */
