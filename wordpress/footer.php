@@ -8,7 +8,7 @@
 							<a href="<?php bloginfo('url');?>/service">SERVICE</a>
 						</li>
 						<li class="footer-main-list-box-list">
-							<a href="">PRODUCTS</a>
+							<a href="<?php bloginfo('url');?>/service#product">PRODUCTS</a>
 						</li>
 					</ul>
 				</div>
@@ -18,10 +18,10 @@
 							<a href="<?php bloginfo('url');?>/company">COMPANY</a>
 						</li>
 						<li class="footer-main-list-box-list">
-							<a href="">OTHER PRODUCTS</a>
+							<a href="<?php bloginfo('url');?>/company#otherproject">OTHER PRODUCTS</a>
 						</li>
 						<li class="footer-main-list-box-list">
-							<a href="">ABOUT</a>
+							<a href="<?php bloginfo('url');?>/company#profileabout">ABOUT</a>
 						</li>
 						<li class="footer-main-list-box-list">
 							<a href="<?php bloginfo('url');?>/news">NEWS</a>
@@ -34,13 +34,13 @@
 							<a href="<?php bloginfo('url');?>/contact">CONTACT</a>
 						</li>
 						<li class="footer-main-list-box-list">
-							<a href="">FAQ</a>
+							<a href="<?php bloginfo('url');?>/contact#faq">FAQ</a>
 						</li>
 						<li class="footer-main-list-box-list">
 							<a href="<?php bloginfo('url');?>/privacy">PRIVACY POLICY</a>
 						</li>
 						<li class="footer-main-list-box-list">
-							<a href="">TESTIMONIALS</a>
+							<a href="<?php echo esc_url( home_url( '/' ) );?>#testimonial">TESTIMONIALS</a>
 						</li>
 						<li class="footer-main-list-box-list">
 							<a href="<?php bloginfo('url');?>/sitemap">SITE MAP</a>

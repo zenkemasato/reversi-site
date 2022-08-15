@@ -25,6 +25,16 @@ a:visited {
   color: #000;
 }
 
+@font-face {
+  font-family: "BIZUDPMincho";
+  src: url("../fonts/BIZUDPMincho-Regular.ttf") format("woff"); /* medium */
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "BIZUDPMincho";
+}
+
 .Top-first-view {
   background-color: #688AA1;
 }
@@ -125,6 +135,7 @@ a:visited {
   text-align: center;
 }
 .top-testimonial-wrapper .top-testimonial > .top-testimonial-content > .top-testimonial-text {
+  color: #FFF633;
   text-align: center;
   margin-top: 3rem;
   line-height: 2em;
