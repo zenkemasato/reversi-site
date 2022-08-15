@@ -58,6 +58,9 @@ body{
 //中身
 .Top-first-view {
 	background-color: $main-color;
+	video {
+		width: 100%;
+	}
 }
 
 .top-service-wrapper {
@@ -137,6 +140,7 @@ body{
 							margin-top:5rem;
 							vertical-align: middle;
 							text-align: center;
+							line-height: 1.8rem;
 						}
 					}
 				}
@@ -147,7 +151,7 @@ body{
 
 .top-testimonial-wrapper {
 	background-color: $main-color;
-	height: 100vh;
+	height: 900px;
 	padding: 1rem 0;
 	border-top: solid 3rem $accent-color;
 	border-bottom: solid 3rem $accent-sub-color;
@@ -173,16 +177,17 @@ body{
 
 .top-news-wrapper{
 	background-color: $white-color;
-	height: 100vh;
-	padding: 4rem 0 8rem;
+	height: 900px;
+	padding-top: 4rem;
 	border-top: solid 3rem $accent-color;
 	
 	.top-news{
 		@include site-wide();
 		@include background-normal("../assets/top/news_airplane.svg");
 		background-position-x: left;
+		height: 80%;
 		&-article{
-			margin-top: 10rem;
+			margin-top: 300px;
 			width: 30%;
 			margin-left: auto;
 			margin-right: 0;
