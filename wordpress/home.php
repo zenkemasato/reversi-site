@@ -3,7 +3,7 @@
 	<div class="top">
 		<!-- First View -->
 		<div class="Top-first-view">
-			<video autoplay muted src="<?php echo get_template_directory_uri(); ?>/assets/top/First View 回転無し.mp4" type="video/mp4"></video>
+			<video autoplay muted src="<?php echo get_template_directory_uri(); ?>/assets/top/First View.mp4" type="video/mp4"></video>
 		</div>
 
 		<!-- サービス内容 -->

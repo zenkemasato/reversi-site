@@ -1,0 +1,134 @@
+//色
+$main-color: #688AA1;
+$sub-color: #A6B2B9;
+$text-color: #000;
+$white-color: #fff;
+
+//リセットCSS
+*::before, *::after {
+	box-sizing: border-box;
+}
+
+html, body, p, video {
+	padding: 0;
+	margin: 0;
+}
+
+img, video {
+	max-width: 100%;
+	height: auto;
+}
+
+ul, li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	&:visited{
+    color: $text-color;
+  }
+}
+
+@mixin site-wide{
+  max-width: 1290px;
+  margin: 5rem auto 10rem;
+}
+@mixin background-normal($url) {
+  background-image: url($url);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+//main
+body {
+	background-color: $main-color;
+}
+
+.news {
+	@include site-wide();
+	&-article{
+		margin-top: 5rem;
+		ul{
+			padding-left: 0;
+		}
+		&-btn{
+			transition: 1s;
+			span{
+				font-size: 1.6rem;
+				&::after{
+					content: url(../assets/top/news_btn.png);
+					margin-left: 1.2rem;
+					vertical-align: -.3rem;
+				}
+			}
+			&:hover{
+				transform: translateX(5rem); 
+			}
+		}
+	}
+	&-list{
+		background-color: $white-color;
+		border: solid 0.5px $sub-color;
+		padding: .8rem 0 .8rem 4rem;
+		time{
+			font-size: .8rem;
+			opacity: .5;
+		}
+		&-text{
+			position: relative;
+			span{
+				font-size: 1.2rem;
+				font-weight: bold;
+				&::after{
+					content: url(../assets/top/news_btn.png);
+					vertical-align: middle;
+					position: absolute;
+					left: 95%;
+				}
+			}
+		}
+	}
+	&-number {
+		background-color: $white-color;
+		margin: 5rem auto;
+		width: 15%;
+
+		& > ul {
+			display: flex;
+			width: 100%;
+			
+			& > li {
+				border: solid 0.5px $sub-color;
+				text-align: center;
+				padding: 1rem 0;
+				width: 100%;
+
+				&:hover {
+					background-color: $sub-color;
+				}
+			}
+		}
+		//wordpress用
+		.nav-links{
+			background-color: $white-color;
+			margin: 5rem auto;
+			width: 15%;
+			.page-numbers{
+				border: solid 0.5px $sub-color;
+				text-align: center;
+				padding: 1rem 0;
+				width: 100%;
+
+				&:hover {
+					background-color: $sub-color;
+				}
+			}	
+		}
+		.prev,.next{
+			display: none;
+		}
+	}
+}

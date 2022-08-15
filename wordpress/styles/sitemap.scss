@@ -1,0 +1,66 @@
+//色
+$main-color: #688AA1;
+$accent-color: #FFF633;
+$text-color: #000;
+$white-color: #fff;
+
+//共通
+img {
+	max-width: 100%;
+	height: auto;
+}
+.sitemap-wrapper{
+  max-width: 1290px;
+  margin: 0 auto;
+}
+
+body{
+  background-color: $main-color;
+  .sitemap-title{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  .sitemap-main{
+    max-width: 90%;
+    margin: 0 auto;
+
+    .sitemap-top,.sitemap-accessmap{
+      margin-bottom: 2rem;
+    }
+    .sitemap-accessmap > a{
+      margin-left : 50%;
+    }
+    a:visited{
+      color: #000;
+    }
+    
+    span{
+      background-color: $white-color;
+      box-sizing: border-box;
+      display: inline-block;
+      padding: 1rem 2rem;
+      width: 50%;
+    }
+    span:before{
+      content: url(../assets/sitemap/arrow_black.svg);
+      display: inline-block;
+      margin-right: 10px;
+      vertical-align: -5px;
+    }
+    span:hover{
+      background-color: $text-color;
+      box-sizing: border-box;
+      color: $white-color;
+    }
+    span:hover:before{
+      content: url(../assets/sitemap/arrow_white.svg);
+    } 
+  }
+}
+
+
+
+
+
+
+

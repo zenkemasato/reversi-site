@@ -58,7 +58,6 @@ body .contact-section-content-main .wpcf7-text {
   border-radius: 0 75px 75px 0;
   width: 70%;
   height: 2rem;
-  margin-top: 4px;
 }
 body .contact-section-content-main .wpcf7-textarea {
   border: none;
@@ -66,7 +65,6 @@ body .contact-section-content-main .wpcf7-textarea {
   border-radius: 0 25px 25px 0;
   width: 70%;
   resize: none;
-  margin-top: 4px;
 }
 body .contact-section-content-main .wpcf7-submit:disabled {
   border: none;
@@ -74,9 +72,8 @@ body .contact-section-content-main .wpcf7-submit:disabled {
   border-radius: 0 75px 75px 0;
   width: 70%;
   color: #fff;
-  height: 3rem;
+  height: 2rem;
   opacity: 0.5;
-  margin-top: 20px;
 }
 body .contact-section-content-main .wpcf7-submit[type=submit i] {
   border: none;
@@ -84,8 +81,7 @@ body .contact-section-content-main .wpcf7-submit[type=submit i] {
   border-radius: 0 75px 75px 0;
   width: 70%;
   color: #fff;
-  height: 3rem;
-  margin-top: 20px;
+  height: 2rem;
 }
 body .contact-section-content .contact-faq {
   width: 60vw;
@@ -102,12 +98,10 @@ body .contact-section-content .contact-faq-wrraper-title span {
 body .contact-section-content .contact-faq-wrraper-text {
   margin-top: 2rem;
 }
-body .contact-section-content .contact-faq-wrraper-text span {
-  margin-right: 1rem;
-}
 body .contact-section-content .contact-faq-wrraper-text span:first-child {
   display: inline-block;
   font-size: 1rem;
+  vertical-align: middle;
   text-align: center;
   line-height: 2.2;
   width: 2rem;
@@ -121,12 +115,10 @@ body .contact-section-content .contact-faq-wrraper-text span::nth-child(2) {
 body .contact-section-content .contact-faq-wrraper-text-answer-yellow {
   margin-top: 1rem;
 }
-body .contact-section-content .contact-faq-wrraper-text-answer-yellow span {
-  margin-right: 1rem;
-}
 body .contact-section-content .contact-faq-wrraper-text-answer-yellow span:first-child {
   display: inline-block;
   font-size: 1rem;
+  vertical-align: middle;
   text-align: center;
   line-height: 2.2;
   width: 2rem;
@@ -138,12 +130,10 @@ body .contact-section-content .contact-faq-wrraper-text-answer-yellow span:first
 body .contact-section-content .contact-faq-wrraper-text-answer-blue {
   margin-top: 1rem;
 }
-body .contact-section-content .contact-faq-wrraper-text-answer-blue span {
-  margin-right: 1rem;
-}
 body .contact-section-content .contact-faq-wrraper-text-answer-blue span:first-child {
   display: inline-block;
   font-size: 1rem;
+  vertical-align: middle;
   text-align: center;
   line-height: 2.2;
   width: 2rem;

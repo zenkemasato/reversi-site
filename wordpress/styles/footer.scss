@@ -1,0 +1,108 @@
+//色
+$main-color: #688AA1;
+$accent-color: #FFF633;
+$text-color: #000;
+
+//リセットCSS
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+	color: $accent-color;
+	text-decoration: none;
+}
+
+p {
+	color: $accent-color;
+	padding: 0;
+	margin: 0;
+}
+
+ul, li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+//リセットCSS ここまで
+
+.footer {
+	align-items: flex-end;
+	display: flex;
+	position: relative;
+	
+	&-company {
+		background-color: $accent-color;
+		border-radius: 0 100px 0 0;
+		width: 350px;
+		min-width: 400px;
+		height: 600px;
+		position: absolute;
+		z-index: 999;
+		top: -100px;
+		left: 0;
+		
+		&-wrapper {
+			padding-left: 20%;
+		}
+		
+		&-logo {
+			padding: 150px 0 250px;
+		}
+
+		&-about {
+			& > ul {
+				& > li {
+					line-height: 2em;
+				}
+			}
+		}
+	}
+
+	&-main {
+		background-color: $main-color;
+		width: 100%;
+		height: 500px;
+		padding: 100px 20px 0 500px;
+
+		&-list {
+			display: flex;
+
+			&-box {
+				padding-right: 70px;
+
+				&-ttl {
+					font-size: 1.8rem;
+					font-weight: bold;
+					padding-bottom: 15px;
+				}
+				&-list {
+					font-size: 1rem;
+					line-height: 1.6em;
+				}
+			}
+
+			&-woman {
+				width: 100%;
+				min-width: 250px;
+				padding: 60px 0 0 40px;
+			}
+		}
+
+		&-row {
+			font-size: 0.4rem;
+			text-align: center;
+			margin-top: 20px;
+		}
+	}
+}

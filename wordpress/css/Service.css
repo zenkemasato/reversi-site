@@ -55,11 +55,10 @@ body .service-wrapper-dev-content-text-group {
 body .service-wrapper-dev-content-text-group-tl {
   color: #FFF633;
   font-size: 2rem;
-  line-height: 2em;
+  line-height: 2;
 }
 body .service-wrapper-dev-content-text-group-txt {
   color: #fff;
-  line-height: 1.7em;
 }
 body .service-wrapper-design-top {
   position: relative;
@@ -161,6 +160,14 @@ body .service-product-wrapper-content-main-btn {
 body .service-product-wrapper-content-main-btn span {
   font-size: 1.6rem;
 }
+body .service-product-wrapper-content-main-btn span::after {
+  content: url(../assets/company/news_btn.png);
+  margin-left: 1.2rem;
+  vertical-align: -0.3rem;
+}
+body .service-product-wrapper-content-main-btn:hover {
+  transform: translateX(5rem);
+}
 body .service-product-wrapper-content-sub {
   width: 50%;
 }
@@ -168,6 +175,5 @@ body .service-product-wrapper-content-sub-txt {
   margin-top: 5rem;
   vertical-align: middle;
   text-align: center;
-  line-height: 1.8rem;
 }
 /*# sourceMappingURL=Service.css.map */

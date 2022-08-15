@@ -38,9 +38,6 @@ body {
 .Top-first-view {
   background-color: #688AA1;
 }
-.Top-first-view video {
-  width: 100%;
-}
 
 .top-service-wrapper {
   background-color: #688AA1;
@@ -121,20 +118,18 @@ body {
   margin-top: 5rem;
   vertical-align: middle;
   text-align: center;
-  line-height: 1.8rem;
 }
 
 .top-testimonial-wrapper {
   background-color: #688AA1;
-  height: 900px;
+  height: 100vh;
   padding: 1rem 0;
   border-top: solid 3rem #FFF633;
   border-bottom: solid 3rem #085BBD;
 }
 .top-testimonial-wrapper .top-testimonial {
   max-width: 1290px;
-  margin: 0 auto;
-  padding-top: 50px;
+  margin: 5rem auto 10rem;
 }
 .top-testimonial-wrapper .top-testimonial > h2 {
   text-align: center;
@@ -151,21 +146,20 @@ body {
 
 .top-news-wrapper {
   background-color: #fff;
+  height: 100vh;
+  padding: 4rem 0 8rem;
   border-top: solid 3rem #FFF633;
-  height: 900px;
-  padding-top: 50px;
 }
 .top-news-wrapper .top-news {
   max-width: 1290px;
-  height: 100%;
-  margin: 0 auto;
+  margin: 5rem auto 10rem;
   background-image: url("../assets/top/news_airplane.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: left;
 }
 .top-news-wrapper .top-news-article {
-  margin-top: 300px;
+  margin-top: 10rem;
   width: 30%;
   margin-left: auto;
   margin-right: 0;
@@ -198,3 +192,4 @@ body {
   font-size: 1.2rem;
   font-weight: bold;
 }
+/*# sourceMappingURL=top.css.map */
