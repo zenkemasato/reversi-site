@@ -91,6 +91,7 @@ body .company-news-wrapper .company-news {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: left;
+  height: 100%;
 }
 body .company-news-wrapper .company-news-article {
   margin-top: 10rem;

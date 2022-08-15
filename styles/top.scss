@@ -58,6 +58,11 @@ body{
 //中身
 .Top-first-view {
 	background-color: $main-color;
+
+	video {
+		width: 100%;
+		text-align: center;
+	}
 }
 
 .top-service-wrapper {
@@ -181,6 +186,7 @@ body{
 		@include site-wide();
 		@include background-normal("../assets/top/news_airplane.svg");
 		background-position-x: left;
+		height: 80%;
 		&-article{
 			margin-top: 10rem;
 			width: 30%;

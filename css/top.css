@@ -38,6 +38,10 @@ body {
 .Top-first-view {
   background-color: #688AA1;
 }
+.Top-first-view video {
+  width: 100%;
+  text-align: center;
+}
 
 .top-service-wrapper {
   background-color: #688AA1;
@@ -157,6 +161,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: left;
+  height: 80%;
 }
 .top-news-wrapper .top-news-article {
   margin-top: 10rem;
@@ -192,4 +197,3 @@ body {
   font-size: 1.2rem;
   font-weight: bold;
 }
-/*# sourceMappingURL=top.css.map */
