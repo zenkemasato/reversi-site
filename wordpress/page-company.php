@@ -32,7 +32,7 @@
         </div>
       </div>
     </section>
-    <section class="company-profileabout-wrapper">
+    <section id="profileabout" class="company-profileabout-wrapper">
       <div class="company-profileabout">
         <h2>
           <div class="company-profileabout-title">
@@ -66,7 +66,7 @@
         </div>
       </div>
     </section>
-    <section class="company-otherproject-wrapper">
+    <section id="otherproject" class="company-otherproject-wrapper">
       <div class="company-otherproject">
         <h2>
           <div class="company-otherproject-title">

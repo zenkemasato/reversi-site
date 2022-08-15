@@ -14,14 +14,14 @@
         <a href="<?php bloginfo('url');?>/service"><span>Service</span></a><a href="<?php bloginfo('url');?>/company"><span>Company</span></a>
       </div>
       <div class="sitemap-products-news">
-        <a href=""><span>Products</span></a><a href="<?php bloginfo('url');?>/news"><span>News</span></a>
+        <a href="<?php bloginfo('url');?>/service#product"><span>Products</span></a><a href="<?php bloginfo('url');?>/news"><span>News</span></a>
       </div>
 
       <div class="sitemap-contact-plivacy">
         <a href="<?php bloginfo('url');?>/contact"><span>Contact</span></a><a href="<?php bloginfo('url');?>/privacy"><span>Plivacy policy</span></a>
       </div>
       <div class="sitemap-faq">
-        <a href=""><span>Faq</span></a>
+        <a href="<?php bloginfo('url');?>/contact#faq"><span>Faq</span></a>
       </div>
     </div>
   </div>
