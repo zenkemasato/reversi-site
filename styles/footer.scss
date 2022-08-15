@@ -19,12 +19,15 @@ img {
 }
 
 a {
-	color: $accent-color;
 	text-decoration: none;
+	color: $text-color;
+	&:visited{
+		color: $text-color;
+	}
 }
 
 p {
-	color: $accent-color;
+
 	padding: 0;
 	margin: 0;
 }
@@ -35,12 +38,14 @@ ul, li {
 	margin: 0;
 }
 //リセットCSS ここまで
+footer{
+	position: relative;
+}
 
 .footer {
 	align-items: flex-end;
 	display: flex;
-	position: relative;
-	
+
 	&-company {
 		background-color: $accent-color;
 		border-radius: 0 100px 0 0;
@@ -80,15 +85,28 @@ ul, li {
 
 			&-box {
 				padding-right: 70px;
-
+				
 				&-ttl {
 					font-size: 1.8rem;
 					font-weight: bold;
 					padding-bottom: 15px;
+					a{
+						color: $accent-color;
+						&:visited{
+							color: $accent-color;
+						}
+					}
+
 				}
 				&-list {
 					font-size: 1rem;
 					line-height: 1.6em;
+					a{
+						color: $accent-color;
+						&:visited{
+							color: $accent-color;
+						}
+					}
 				}
 			}
 
