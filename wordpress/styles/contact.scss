@@ -4,6 +4,7 @@ $accent-color: #FFF633;
 $text-color: #000;
 $white-color: #fff;
 $blue-color: #085BBD;
+$light-blue-color:#B2C4CF;
 
 //共通
 img {
@@ -25,6 +26,13 @@ a{
   background-size: cover;
   background-repeat: no-repeat;
 }
+@mixin contact-base(){
+  border:none;
+  background-color: $light-blue-color;
+  border-radius: 0 75px 75px 0;
+  width: 70%;
+  height: 2rem;
+}  
 @mixin faq(){  
   display: inline-block;
   font-size: 1rem;
@@ -54,22 +62,66 @@ body{
       justify-content: right;
       &-contact{
         width: 50%;
-
       }
       &-wrapper{
         width: 40%;
-        margin-right: 0;
+        padding-left: 5rem;
         background-color: $main-color;
-        position: relative;
+        margin-top: -20rem;
         &-right{
-          position: fixed;
-          bottom: 0;
-          right: 5rem;
+          position: -webkit-sticky; /* Safari */  
+          position: sticky;
+          top: 0;
         }
       }
       &-content{
+        &-main{
+          width: 60vw;
+          .wpcf7{
+            width: 70%;
+            margin: 0 auto;
+            label{
+              margin-top: 2rem;
+              display: inline-block;
+              width: 100%;
+            }
+            &-text{
+              border:none;
+              background-color: $light-blue-color;
+              border-radius: 0 75px 75px 0;
+              width: 70%;
+              height: 2rem;
+            }
+            &-textarea{
+              border:none;
+              background-color: $light-blue-color;
+              border-radius: 0 25px 25px 0;
+              width: 70%;
+              resize: none;
+            }
+            &-submit:disabled{
+              border:none;
+              background-color: $blue-color;
+              border-radius: 0 75px 75px 0;
+              width: 70%;
+              color: $white-color;
+              height: 2rem;
+              opacity: 0.5;
+            }
+            &-submit[type="submit" i] {
+              border:none;
+              background-color: $blue-color;
+              border-radius: 0 75px 75px 0;
+              width: 70%;
+              color: $white-color;
+              height: 2rem;
+            }
+          }
+        }
         .contact-faq{
           width: 60vw;
+          margin-top: 10rem;
+          margin-bottom: 10rem;
           &-wrraper{
             width: 70%;
             margin: 0 auto;

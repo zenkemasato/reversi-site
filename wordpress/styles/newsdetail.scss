@@ -1,0 +1,70 @@
+//色
+$main-color: #688AA1;
+$sub-color: #A6B2B9;
+$text-color: #000;
+$white-color: #fff;
+$accent-color: #FFF633;
+
+//リセットCSS
+*::before, *::after {
+	box-sizing: border-box;
+}
+html, body, p, video {
+	padding: 0;
+	margin: 0;
+}
+img, video {
+	max-width: 100%;
+	height: auto;
+}
+ul, li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	&:visited{
+    color: $text-color;
+  }
+}
+
+.newsdetail{
+  &-title{
+    max-width: 1290px;
+    margin: 5rem auto 0;
+  }
+  &-wrrap{
+    max-width: 1290px;
+    margin: 0 auto;
+    &-head{
+      color: $accent-color;
+      date{
+				opacity: .5;
+			}
+      h3{
+        font-size: 3rem;
+        margin: 0;
+      }
+    }
+    &-body{
+      background-color: $white-color;
+      padding: 5rem 3rem 2rem;
+      margin-bottom: 3rem;
+      &-btn{
+				transition: 1s;
+        margin-top: 2rem;
+        text-align: center;
+				span{
+					&::after{
+						content: url(../assets/top/news_btn.png);
+            display: inline-block;
+            transform: scale(0.8);
+						margin-left: 1.2rem;
+						vertical-align: -.5rem;
+					}
+				}
+			}
+    }
+  } 
+}

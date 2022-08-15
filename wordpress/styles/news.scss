@@ -92,3 +92,24 @@ body {
 		}
 	}
 }
+//wordpress用
+.nav-links{
+	background-color: $white-color;
+	display: flex;
+	margin: 5rem auto;
+	width: 15%;
+	.page-numbers{
+		display: inline-block;
+		border: solid 0.5px $sub-color;
+		text-align: center;
+		padding: 1rem 0;
+		width: 100%;
+
+		&:hover {
+			background-color: $sub-color;
+		}
+	}	
+}
+.prev,.next{
+	display: none !important;
+}

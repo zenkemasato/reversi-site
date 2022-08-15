@@ -4,11 +4,11 @@ $accent-color: #FFF633;
 $text-color: #000;
 
 //リセットCSS
-*::before, *::after {
+*, *::before, *::after {
 	box-sizing: border-box;
 }
 
-html, body, p {
+html, body {
 	padding: 0;
 	margin: 0;
 }
@@ -18,90 +18,109 @@ img {
 	height: auto;
 }
 
-ul, li {
-	padding: 0;
-	margin: 0;
-	list-style: none;
-}
-
 a {
 	text-decoration: none;
+	color: $text-color;
+	&:visited{
+		color: $text-color;
+	}
 }
 
-footer {
-	& > .footer {
-		display: flex;
-		align-items: flex-end;
-		width: 100%;
+p {
 
-		& > .footer-company {
-			background-color: $accent-color;
-			border-radius: 0 100px 0 0;
-			width: 35%;
-			height: 600px;
-			position: relative;
+	padding: 0;
+	margin: 0;
+}
 
-			& > .footer-logo {
-				position: absolute;
-				top: 30%;
-				left: 15%;
-			}
+ul, li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+//リセットCSS ここまで
+footer{
+	position: relative;
+}
 
-			& > .footer-company-about {
-				position: absolute;
-				top: 70%;
-				left: 10%;
+.footer {
+	align-items: flex-end;
+	display: flex;
 
-				& > ul {
-					& > li {
-						color: $text-color;
-					}
+	&-company {
+		background-color: $accent-color;
+		border-radius: 0 100px 0 0;
+		width: 350px;
+		min-width: 400px;
+		height: 600px;
+		position: absolute;
+		z-index: 999;
+		top: -100px;
+		left: 0;
+		
+		&-wrapper {
+			padding-left: 20%;
+		}
+		
+		&-logo {
+			padding: 150px 0 250px;
+		}
+
+		&-about {
+			& > ul {
+				& > li {
+					line-height: 2em;
 				}
 			}
 		}
+	}
 
-		& > .footer-main {
-			background-color: $main-color;
-			width: 100%;
-			height: 500px;
+	&-main {
+		background-color: $main-color;
+		width: 100%;
+		height: 500px;
+		padding: 100px 20px 0 500px;
 
-			& > .footer-list {
-				display: flex;
-				margin-top: 10%;
+		&-list {
+			display: flex;
 
+			&-box {
+				padding-right: 70px;
 				
-				& > .footer-left, & > .footer-center, & > .footer-right  {
-					margin-left: 10%;
-					
-					& > ul {
-						& > li {
-							& > a {
-								color: $accent-color;
-							}
+				&-ttl {
+					font-size: 1.8rem;
+					font-weight: bold;
+					padding-bottom: 15px;
+					a{
+						color: $accent-color;
+						&:visited{
+							color: $accent-color;
 						}
-						& > .footer-main-ttl {
-							font-size: 24px;
-							font-weight: bold;
-							letter-spacing: 0.1rem;
-							padding-bottom: 20px;
-						}
-						& > .footer-main-list {
-							font-size: 18px;
-							padding-bottom: 5%;
+					}
+
+				}
+				&-list {
+					font-size: 1rem;
+					line-height: 1.6em;
+					a{
+						color: $accent-color;
+						&:visited{
+							color: $accent-color;
 						}
 					}
 				}
-				& > .footer-woman {
-					margin: 6% 3% 0;
-				}
 			}
 
-			& > .footer-row {
-				text-align: center;
-				& > p {
-					color: $accent-color;
-				}
+			&-woman {
+				width: 100%;
+				min-width: 250px;
+				padding: 60px 0 0 40px;
 			}
+		}
+
+		&-row {
+			font-size: 0.4rem;
+			text-align: center;
+			margin-top: 20px;
 		}
 	}
 }
