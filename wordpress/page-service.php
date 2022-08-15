@@ -76,7 +76,7 @@
       </div>
     </section>
 
-    <section class="service-product">
+    <section id="product" class="service-product">
       <div class="service-product-wrapper">
         <h2>
           <div class="service-product-wrapper-title">

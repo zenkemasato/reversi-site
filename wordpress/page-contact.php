@@ -9,7 +9,7 @@
         <div class="contact-section-content-main">
           <?php echo do_shortcode('[contact-form-7 id="64" title="お問い合わせ"]'); ?>
         </div>
-        <div class="contact-faq">
+        <div id="faq" class="contact-faq">
           <div class="contact-faq-wrraper">
             <div class="contact-faq-wrraper-title">
               <span>

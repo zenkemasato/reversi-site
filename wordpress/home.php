@@ -101,7 +101,7 @@
 		</section>
 		
 		<!-- お客様の声 -->
-		<section class="top-testimonial-wrapper">
+		<section id="testimonial" class="top-testimonial-wrapper">
 			<div class="top-testimonial">
 				<h2>
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/top/Top-testimonial.svg" alt="Testimonialのタイトル">
