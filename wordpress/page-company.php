@@ -103,7 +103,9 @@
         <div class="company-news-article">
           <ul>
             <?php 
-                  $postslist = get_posts('numberposts=5');
+                  $max_post = get_option('posts_per_page');
+                  $post_num = "numberposts=".$max_post;
+                  $postslist = get_posts($post_num);
                   foreach ($postslist as $index => $recent) : ;
               ?>
                 <li class="company-news-list">

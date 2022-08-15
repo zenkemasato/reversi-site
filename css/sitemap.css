@@ -5,7 +5,7 @@ img {
 
 .sitemap-wrapper {
   max-width: 1290px;
-  margin: 0 auto;
+  margin: 0 auto 10rem;
 }
 
 body {
@@ -19,14 +19,8 @@ body .sitemap-main {
   max-width: 90%;
   margin: 0 auto;
 }
-body .sitemap-main .sitemap-top, body .sitemap-main .sitemap-accessmap {
+body .sitemap-main .sitemap-top, body .sitemap-main .sitemap-products-news {
   margin-bottom: 2rem;
-}
-body .sitemap-main .sitemap-accessmap > a {
-  margin-left: 50%;
-}
-body .sitemap-main a:visited {
-  color: #000;
 }
 body .sitemap-main span {
   background-color: #fff;
