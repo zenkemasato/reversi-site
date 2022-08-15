@@ -8,19 +8,17 @@
     </h2>
     <div class="sitemap-main">
       <div class="sitemap-top">
-        <a href=""><span>Top</span></a>
+        <a href="<?php echo esc_url( home_url( '/' ) );?>"><span>Top</span></a>
       </div>
       <div class="sitemap-service-company">
-        <a href=""><span>Service</span><span>Company</span></a>
+        <a href="<?php bloginfo('url');?>/service"><span>Service</span></a><a href="<?php bloginfo('url');?>/company"><span>Company</span></a>
       </div>
       <div class="sitemap-products-news">
-        <a href=""><span>Products</span><span>News</span></a>
+        <a href=""><span>Products</span></a><a href="<?php bloginfo('url');?>/news"><span>News</span></a>
       </div>
-      <div class="sitemap-accessmap">
-        <a href=""><span>Accessmap</span></a>
-      </div>
+
       <div class="sitemap-contact-plivacy">
-        <a href=""><span>Contact</span><span>Plivacy policy</span></a>
+        <a href="<?php bloginfo('url');?>/contact"><span>Contact</span></a><a href="<?php bloginfo('url');?>/privacy"><span>Plivacy policy</span></a>
       </div>
       <div class="sitemap-faq">
         <a href=""><span>Faq</span></a>
