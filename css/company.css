@@ -91,6 +91,7 @@ body .company-news-wrapper .company-news {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: left;
+  height: 80%;
 }
 body .company-news-wrapper .company-news-article {
   margin-top: 10rem;
@@ -126,4 +127,3 @@ body .company-news-wrapper .company-news-list-text {
   font-size: 1.2rem;
   font-weight: bold;
 }
-/*# sourceMappingURL=company.css.map */
