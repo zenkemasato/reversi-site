@@ -81,6 +81,9 @@ footer {
 .footer-main-list-box-ttl a:visited {
   color: #FFF633;
 }
+.footer-main-list-box-ttl a:hover {
+  opacity: 0.5;
+}
 .footer-main-list-box-list {
   font-size: 1rem;
   line-height: 2em;
@@ -91,13 +94,17 @@ footer {
 .footer-main-list-box-list a:visited {
   color: #FFF633;
 }
+.footer-main-list-box-list a:hover {
+  opacity: 0.5;
+}
 .footer-main-list-woman {
   width: 100%;
   min-width: 250px;
   padding-top: 5px;
 }
 .footer-main-row {
+  color: #FFF633;
   font-size: 0.3em;
-  text-align: center;
+  text-align: left;
 }
 /*# sourceMappingURL=footer.css.map */
