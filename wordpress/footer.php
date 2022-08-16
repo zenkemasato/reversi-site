@@ -59,7 +59,7 @@
 	<div class="footer-company">
 		<div class="footer-company-wrapper">
 			<div class="footer-company-logo">
-				<a href="<?php echo esc_url( home_url( '/' ) );?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/footer/logo.png" alt="企業ロゴ"></a>
+				<a href="<?php echo esc_url( home_url( '/' ) );?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/footer/logo.svg" alt="企業ロゴ"></a>
 			</div>
 			<div class="footer-company-about">
 				<ul>

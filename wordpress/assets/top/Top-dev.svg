@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="286" height="189" viewBox="0 0 286 189">
+  <g id="グループ_337" data-name="グループ 337" transform="translate(-219 -1026)">
+    <g id="グループ_330" data-name="グループ 330">
+      <ellipse id="楕円形_41" data-name="楕円形 41" cx="123" cy="2" rx="123" ry="2" transform="translate(239 1059)" fill="#fff"/>
+      <text id="Web_Development" data-name="Web Development" transform="translate(362 1052)" fill="#fff633" font-size="30" font-family="BIZ-UDPMincho-Medium, BIZ UDPMincho" font-weight="500"><tspan x="-142.244" y="0">Web Development</tspan></text>
+    </g>
+    <g id="グループ_151" data-name="グループ 151" transform="translate(328 1145.5)">
+      <ellipse id="楕円形_21" data-name="楕円形 21" cx="34" cy="1" rx="34" ry="1" transform="translate(0 20.5)" fill="#fff"/>
+      <text id="Product" transform="translate(34 15.5)" fill="#fff633" font-size="20" font-family="BIZ-UDPMincho-Medium, BIZ UDPMincho" font-weight="500"><tspan x="-40.503" y="0">Product</tspan></text>
+    </g>
+    <g id="グループ_150" data-name="グループ 150" transform="translate(331 1099)">
+      <g id="グループ_59" data-name="グループ 59" transform="translate(0 20)">
+        <ellipse id="楕円形_25" data-name="楕円形 25" cx="31" cy="1" rx="31" ry="1" transform="translate(0 0)" fill="#fff"/>
+      </g>
+      <text id="Design" transform="translate(31 15)" fill="#fff633" font-size="20" font-family="BIZ-UDPMincho-Medium, BIZ UDPMincho" font-weight="500"><tspan x="-36.201" y="0">Design</tspan></text>
+    </g>
+    <g id="グループ_152" data-name="グループ 152" transform="translate(318 1193)">
+      <ellipse id="楕円形_27" data-name="楕円形 27" cx="44" cy="1" rx="44" ry="1" transform="translate(0 20)" fill="#fff"/>
+      <text id="Oparation" transform="translate(44 15)" fill="#fff633" font-size="20" font-family="BIZ-UDPMincho-Medium, BIZ UDPMincho" font-weight="500"><tspan x="-52.202" y="0">Oparation</tspan></text>
+    </g>
+  </g>
+</svg>

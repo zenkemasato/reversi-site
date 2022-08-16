@@ -83,26 +83,28 @@ body .company-otherproject-ranbarse-text-txt, body .company-otherproject-deepdes
 }
 body .company-news-wrapper {
   background-color: #fff;
-  height: 100vh;
-  padding: 8rem 0 8rem 0;
+  height: 1000px;
+  padding-top: 4rem;
+  border-top: solid 3rem #FFF633;
 }
 body .company-news-wrapper .company-news {
   max-width: 1290px;
-  margin: 5rem auto 10rem;
   background-image: url("../assets/company/news_airplane.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: left;
-  height: 100%;
+  margin: 5rem auto 10rem;
+  height: 80%;
 }
 body .company-news-wrapper .company-news-article {
-  margin-top: 10rem;
+  margin-top: 8rem;
   width: 30%;
   margin-left: auto;
   margin-right: 0;
 }
 body .company-news-wrapper .company-news-article ul {
   padding-left: 0;
+  margin-bottom: 2rem;
 }
 body .company-news-wrapper .company-news-article-btn {
   transition: 1s;
@@ -123,9 +125,14 @@ body .company-news-wrapper .company-news-list {
   margin-bottom: 0.8rem;
 }
 body .company-news-wrapper .company-news-list date {
+  display: inline-block;
   opacity: 0.5;
+  padding-bottom: 0.5rem;
 }
 body .company-news-wrapper .company-news-list-text {
   font-size: 1.2rem;
   font-weight: bold;
+}
+body .company-news-wrapper .company-news-list:hover {
+  opacity: 0.5;
 }
