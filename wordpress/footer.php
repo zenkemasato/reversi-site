@@ -52,7 +52,7 @@
 				</div>
 			</div>
 			<div class="footer-main-row">
-				<p>COPYRIGHT © WEST CORPORATION ALL RIGHTS RESERVED.</p>
+				<small>COPYRIGHT&copy; WEST CORPORATION ALL RIGHTS RESERVED.</small>
 			</div>
 		</div>
 	</div>
