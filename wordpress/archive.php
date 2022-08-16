@@ -14,7 +14,7 @@
 				?>
 					<li class="news-list">
 						<a href="<?php the_permalink(); ?>">
-							<time><?php the_time('Y.n.j'); ?></time>
+							<date><?php the_time('Y.n.j'); ?></date>
 							<div class="news-list-text">
 								<span><?php the_title(); ?></span>
 							</div>

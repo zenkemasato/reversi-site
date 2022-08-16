@@ -72,21 +72,31 @@ body {
 	&-list{
 		background-color: $white-color;
 		border: solid 0.5px $sub-color;
+		border-radius: 10px;
 		padding: .8rem 0 .8rem 4rem;
-		time{
+		margin-bottom: .3rem;
+		
+		date{
+			display: inline-block;
 			font-size: .8rem;
 			opacity: .5;
+			padding-bottom: .5rem;
+		}
+		&:hover {
+			background-color: $sub-color;
 		}
 		&-text{
-			position: relative;
 			span{
 				font-size: 1.2rem;
 				font-weight: bold;
+				position: relative;
 				&::after{
 					content: url(../assets/top/news_btn.png);
-					vertical-align: middle;
+					top: -.8rem;
+					left: 72rem;
+					line-height: 1rem;
 					position: absolute;
-					left: 95%;
+					vertical-align: middle;
 				}
 			}
 		}

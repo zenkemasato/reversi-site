@@ -8,7 +8,7 @@
             <img src="<?php echo get_template_directory_uri(); ?>/assets/service/service_title.png" alt="サービスタイトル">
           </div>
         </h2> 
-        <div class="service-wrapper-dev">
+        <div id="dev" class="service-wrapper-dev">
           <div class="service-wrapper-dev-top">
             <div class="service-wrapper-dev-top-back">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/service/background_accent.png" alt="背景">
@@ -37,7 +37,7 @@
           </div>
         </div>
         
-        <div class="service-wrapper-design">
+        <div id="design" class="service-wrapper-design">
           <div class="service-wrapper-design-top">
             <div class="service-wrapper-design-top-back">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/service/background_accent.png" alt="背景">
@@ -56,7 +56,7 @@
           </div>
         </div>
 
-        <div class="service-wrapper-consul">
+        <div id="consul" class="service-wrapper-consul">
           <div class="service-wrapper-consul-top">
             <div class="service-wrapper-consul-top-back">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/service/background_accent.png" alt="背景">

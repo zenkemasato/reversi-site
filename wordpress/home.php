@@ -13,7 +13,9 @@
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/top/Top-service.svg" alt="Serviceのタイトル">
 				</h2>
 				<div class="top-service-content">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/top/Top-service-about.svg" alt="">
+					<a href="<?php bloginfo('url');?>/service#dev"><div class="top-service-content-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/top/Top-dev.svg" alt=""></div></a>
+					<a href="<?php bloginfo('url');?>/service#design"><div class="top-service-content-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/top/Top-design.svg" alt=""></div></a>
+					<a href="<?php bloginfo('url');?>/service#consul"><div class="top-service-content-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/top/Top-consul.svg" alt=""></div></a>
 				</div>
 			</div>
 		</section>
@@ -27,14 +29,16 @@
 				</h2>
 				<div class="top-product-wrapper-content">
           <div class="top-product-wrapper-content-main">
-            <div class="top-product-wrapper-content-main-img">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/top/Dummy.png" alt="事業画像">
-            </div>
-            <div class="top-product-wrapper-content-main-btn">
-              <span>
-                sitename
-              </span>
-            </div>
+						<a href="<?php bloginfo('url');?>/service#product">
+							<div class="top-product-wrapper-content-main-img">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/top/Dummy.png" alt="事業画像">
+							</div>
+							<div class="top-product-wrapper-content-main-btn">
+								<span>
+									sitename
+								</span>
+							</div>
+						</a>
           </div>
           <div class="top-product-wrapper-content-sub">
             <div class="top-product-wrapper-content-sub-txt">
@@ -62,27 +66,31 @@
               </span>
             </div>
           </div>
-          <div class="top-product-wrapper-content-main">
-            <div class="top-product-wrapper-content-main-img">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/top/Dummy.png" alt="事業画像">
-            </div>
-            <div class="top-product-wrapper-content-main-btn">
-              <span>
-                sitename
-              </span>
-            </div>
+					<div class="top-product-wrapper-content-main">
+						<a href="<?php bloginfo('url');?>/service#product">
+							<div class="top-product-wrapper-content-main-img">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/top/Dummy.png" alt="事業画像">
+							</div>
+							<div class="top-product-wrapper-content-main-btn">
+								<span>
+									sitename
+								</span>
+							</div>
+						</a>
           </div>
         </div>
         <div class="top-product-wrapper-content">
-          <div class="top-product-wrapper-content-main">
-            <div class="top-product-wrapper-content-main-img">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/top/Dummy.png" alt="事業画像">
-            </div>
-            <div class="top-product-wrapper-content-main-btn">
-              <span>
-                sitename
-              </span>
-            </div>
+					<div class="top-product-wrapper-content-main">
+						<a href="<?php bloginfo('url');?>/service#product">
+							<div class="top-product-wrapper-content-main-img">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/top/Dummy.png" alt="事業画像">
+							</div>
+							<div class="top-product-wrapper-content-main-btn">
+								<span>
+									sitename
+								</span>
+							</div>
+						</a>
           </div>
           <div class="top-product-wrapper-content-sub">
             <div class="top-product-wrapper-content-sub-txt">
@@ -147,7 +155,6 @@
 							<li class="top-news-list">
 								<a href="<?php echo get_permalink(); ?>">
 									<date><?php the_time('Y.n.j'); ?></date>
-									
 									<div class="top-news-list-text">
 										<span><?php the_title(); ?></span>
 									</div>
