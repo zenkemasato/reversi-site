@@ -75,7 +75,15 @@ body{
 			text-align: center;
 		}
 		&-content{
-			margin: 80px 0 0 195px;
+			margin: 5rem 10rem 0 5rem;
+			display: flex;
+			justify-content: space-between;
+			a:hover{
+				opacity: .5;
+			}
+			&-img{
+				margin: 0 2rem;
+			}
 		}
 	}
 }
@@ -180,19 +188,19 @@ body{
 	height: 900px;
 	padding-top: 4rem;
 	border-top: solid 3rem $accent-color;
-	
 	.top-news{
 		@include site-wide();
 		@include background-normal("../assets/top/news_airplane.svg");
 		background-position-x: left;
 		height: 80%;
 		&-article{
-			margin-top: 300px;
+			margin-top: 8rem;
 			width: 30%;
 			margin-left: auto;
 			margin-right: 0;
 			ul{
 				padding-left: 0;
+				margin-bottom: 2rem;
 			}
 			
 			&-btn{
@@ -215,11 +223,16 @@ body{
 			list-style: none;
 			margin-bottom: .8rem;
 			date{
+				display: inline-block;
 				opacity: .5;
+				padding-bottom: .5rem;
 			}
 			&-text{
 				font-size: 1.2rem;
 				font-weight: bold;
+			}
+			&:hover{
+				opacity: .5;
 			}
 		}
 	}

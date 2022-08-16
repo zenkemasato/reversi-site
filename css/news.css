@@ -56,24 +56,31 @@ body {
 .news-list {
   background-color: #fff;
   border: solid 0.5px #A6B2B9;
+  border-radius: 10px;
   padding: 0.8rem 0 0.8rem 4rem;
+  margin-bottom: 0.3rem;
 }
-.news-list time {
+.news-list date {
+  display: inline-block;
   font-size: 0.8rem;
   opacity: 0.5;
+  padding-bottom: 0.5rem;
 }
-.news-list-text {
-  position: relative;
+.news-list:hover {
+  background-color: #A6B2B9;
 }
 .news-list-text span {
   font-size: 1.2rem;
   font-weight: bold;
+  position: relative;
 }
 .news-list-text span::after {
   content: url(../assets/top/news_btn.png);
-  vertical-align: middle;
+  top: -0.8rem;
+  left: 72rem;
+  line-height: 1rem;
   position: absolute;
-  left: 95%;
+  vertical-align: middle;
 }
 
 .nav-links {

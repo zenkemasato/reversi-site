@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="171" height="95" viewBox="0 0 171 95">
+  <g id="グループ_339" data-name="グループ 339" transform="translate(-909 -1026)">
+    <g id="グループ_160" data-name="グループ 160" transform="translate(-19 -11)">
+      <ellipse id="楕円形_18" data-name="楕円形 18" cx="44" cy="1" rx="44" ry="1" transform="translate(955 1130)" fill="#fff"/>
+      <text id="Marketing" transform="translate(955 1125)" fill="#fff633" font-size="20" font-family="BIZ-UDPMincho-Medium, BIZ UDPMincho" font-weight="500"><tspan x="0" y="0">Marketing</tspan></text>
+    </g>
+    <g id="グループ_332" data-name="グループ 332">
+      <ellipse id="楕円形_43" data-name="楕円形 43" cx="71" cy="2" rx="71" ry="2" transform="translate(909 1061)" fill="#fff"/>
+      <text id="Consulting" transform="translate(909 1052)" fill="#fff633" font-size="30" font-family="BIZ-UDPMincho-Medium, BIZ UDPMincho" font-weight="500"><tspan x="0" y="0">Consulting</tspan></text>
+    </g>
+  </g>
+</svg>

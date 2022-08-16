@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="290" height="242" viewBox="0 0 290 242">
+  <g id="グループ_338" data-name="グループ 338" transform="translate(-548 -1026)">
+    <g id="グループ_61" data-name="グループ 61" transform="translate(621 1242.802)">
+      <g id="グループ_147" data-name="グループ 147">
+        <ellipse id="楕円形_22" data-name="楕円形 22" cx="67" cy="1" rx="67" ry="1" transform="translate(5 23.198)" fill="#fff"/>
+        <text id="UI_UX_Layout" data-name="UI・UX Layout" transform="translate(72 18.198)" fill="#fff633" font-size="20" font-family="BIZ-UDPMincho-Medium, BIZ UDPMincho" font-weight="500"><tspan x="-72.231" y="0">UI・UX Layout</tspan></text>
+      </g>
+    </g>
+    <g id="グループ_58" data-name="グループ 58" transform="translate(585 1192.802)">
+      <g id="グループ_148" data-name="グループ 148">
+        <ellipse id="楕円形_23" data-name="楕円形 23" cx="96" cy="1" rx="96" ry="1" transform="translate(12 23.198)" fill="#fff"/>
+        <text id="Planning_Production" data-name="Planning・Production" transform="translate(108 18.198)" fill="#fff633" font-size="20" font-family="BIZ-UDPMincho-Medium, BIZ UDPMincho" font-weight="500"><tspan x="-107.817" y="0">Planning・Production</tspan></text>
+      </g>
+    </g>
+    <g id="グループ_143" data-name="グループ 143" transform="translate(635 1142.802)">
+      <ellipse id="楕円形_24" data-name="楕円形 24" cx="46" cy="1" rx="46" ry="1" transform="translate(12 23.198)" fill="#fff"/>
+      <g id="グループ_55" data-name="グループ 55">
+        <text id="Illustration" transform="translate(58 18.198)" fill="#fff633" font-size="20" font-family="BIZ-UDPMincho-Medium, BIZ UDPMincho" font-weight="500"><tspan x="-57.505" y="0">Illustration</tspan></text>
+      </g>
+    </g>
+    <g id="グループ_57" data-name="グループ 57" transform="translate(652 1095.802)">
+      <g id="グループ_142" data-name="グループ 142">
+        <ellipse id="楕円形_26" data-name="楕円形 26" cx="35" cy="1" rx="35" ry="1" transform="translate(6 23.198)" fill="#fff"/>
+        <text id="Graphic" transform="translate(41 18.198)" fill="#fff633" font-size="20" font-family="BIZ-UDPMincho-Medium, BIZ UDPMincho" font-weight="500"><tspan x="-41.499" y="0">Graphic</tspan></text>
+      </g>
+    </g>
+    <g id="グループ_331" data-name="グループ 331">
+      <ellipse id="楕円形_42" data-name="楕円形 42" cx="123" cy="2" rx="123" ry="2" transform="translate(570 1061)" fill="#fff"/>
+      <text id="Design_Production" data-name="Design Production" transform="translate(693 1052)" fill="#fff633" font-size="30" font-family="BIZ-UDPMincho-Medium, BIZ UDPMincho" font-weight="500"><tspan x="-144.214" y="0">Design Production</tspan></text>
+    </g>
+  </g>
+</svg>
